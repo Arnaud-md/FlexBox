@@ -31,13 +31,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: grey;
-    width:490px;
-    height:60px;
-    margin-top:5px;
+    background-color: rgb(213, 213, 213);
+    width:500px;
+    height:65px;
+    margin-top:0px;
     margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 5px;
 }
 .second_square {
     display: flex;
@@ -86,33 +87,36 @@ body {
 #red_round {
     display: flex;
     background-color: red;
-    border-radius: 15px;
+    border-radius: 20px;
     width:30px;
     height:30px;
     margin-top:15px;
     margin-bottom: 15px;
     margin-left: 20px;
+    border: 2px solid white;
 
 }
 #yellow_round {
     display: flex;
     background-color: yellow;
-    border-radius: 15px;
+    border-radius: 20px;
     width:30px;
     height:30px;
     margin-top:15px;
     margin-bottom: 15px;    
     margin-left: 20px;
+    border: 2px solid white;
 }
 #green_round {
     display: flex;
     background-color: green;
-    border-radius:15px;
+    border-radius:20px;
     width:30px;
     height:30px;
     margin-top:15px;
     margin-bottom: 15px;
     margin-left: 20px;
+    border: 2px solid white;
 }
 
 #first_red_oblong {
