@@ -1,0 +1,201 @@
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+}
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:500px;
+    height:500px;
+    margin-top:8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+    background-color: white;
+    border:5px solid  darkgrey;
+    border-radius: 10px;
+}
+.title {
+    margin-right: 10%;
+    font-size : 64pt;
+    text-align: center;
+    width:350px;
+    height:500px;
+    margin-top:15%;
+}
+.grey_oblong {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: grey;
+    width:490px;
+    height:60px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.second_square {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:490px;
+    height:425px;
+    margin-top:0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.first_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:490px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.second_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:490px;
+    height: 255px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.third_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:490px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#red_round {
+    display: flex;
+    background-color: red;
+    border-radius: 15px;
+    width:30px;
+    height:30px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+
+}
+#yellow_round {
+    display: flex;
+    background-color: yellow;
+    border-radius: 15px;
+    width:30px;
+    height:30px;
+    margin-top:15px;
+    margin-bottom: 15px;    
+    margin-left: 20px;
+}
+#green_round {
+    display: flex;
+    background-color: green;
+    border-radius:15px;
+    width:30px;
+    height:30px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#first_red_oblong {
+    width:330px;
+    height:80px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-color: red;
+}
+#second_red_oblong {
+    width:155px;
+    height:80px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: red;
+}
+
+#yellow_oblong {
+    width:240px;
+    height:255px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-color: yellow;
+}
+#two_purple_oblongs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:245px;
+    height: 255px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+#first_purple_oblong {
+    width:245px;
+    height:125px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    background-color: purple;
+}
+#second_purple_oblong {
+    width:245px;
+    height:125px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: purple;
+}
+#first_blue_oblong {
+    width:100px;
+    height:80px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-color: blue;
+}
+#second_blue_oblong {
+    width:280px;
+    height:80px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-color: blue;
+}
+#third_blue_oblong {
+    width:100px;
+    height:80px;
+    margin-top:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: blue;
+}
